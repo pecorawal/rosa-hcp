@@ -9,4 +9,4 @@ Neste Repositório você encontrará exemplos de códigos para  otimizações de
 ___
 Lista dos insumos disponíveis
 
-- Infra Nodes Exclusivos com ingress node pool [infra-nodes](infra-nodes/separando-ingresses-nodes-exclusivos.md)
+- [Infra Nodes com ingress em node pool exclusivo](infra-nodes/separando-ingresses-nodes-exclusivos.md)

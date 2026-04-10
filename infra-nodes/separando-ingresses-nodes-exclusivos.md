@@ -10,10 +10,11 @@ https://api.rosa.xxxx.p3.openshiftapps.com:443
 ```bash
   rosa create machinepool --cluster=rosa \
   --name=infra-pool \
+  --instance-type="m6a.xlarge" \
   --replicas=2 \
   --labels="node-role.kubernetes.io/infra=" \
   --taints="node-role.kubernetes.io/infra=:NoSchedule"
-```
+``` 
 
 # Separando ingress em node pool distinto
 
